@@ -1,0 +1,226 @@
+{
+  "categories": [
+    {
+      "name": "کادویی و هدیه",
+      "slug": "gift",
+      "description": "جعبه‌های آماده هدیه برای تولد، دیدار و مراسم.",
+      "imageUrl": "/images/cat-gift.jpg",
+      "sortOrder": 1
+    },
+    {
+      "name": "محصولات فله",
+      "slug": "bulk",
+      "description": "فروش وزنی برای خانه، قنادی و پذیرایی.",
+      "imageUrl": "/images/cat-bulk.jpg",
+      "sortOrder": 2
+    },
+    {
+      "name": "تخته‌ای",
+      "slug": "bar",
+      "description": "تابلت‌های تک‌نفره برای مصرف روزمره.",
+      "imageUrl": "/images/cat-bar.jpg",
+      "sortOrder": 3
+    },
+    {
+      "name": "مناسبتی",
+      "slug": "occasion",
+      "description": "بسته‌های نوروز، یلدا و مراسم.",
+      "imageUrl": "/images/cat-occasion.jpg",
+      "sortOrder": 4
+    }
+  ],
+  "products": [
+    {
+      "name": "جعبه یاقوت",
+      "slug": "ruby-box",
+      "description": "بیست‌وچهار پرالین میوه‌ای و مغزی در جعبه مخمل زرشکی. مناسب هدیه تولد، سالگرد و دیدار رسمی. در جعبه بسته می‌شود و آماده تقدیم است.",
+      "price": 1850000,
+      "unit": "جعبه",
+      "weightLabel": "۲۴ عدد",
+      "imageUrl": "/images/gift-ruby.jpg",
+      "isFeatured": true,
+      "stock": 24,
+      "categorySlug": "gift"
+    },
+    {
+      "name": "جعبه نسترن",
+      "slug": "nastaran-box",
+      "description": "هجده شکلات گل‌دار با مغز پسته و بادام. بسته‌بندی روشن برای هدیه‌ای سبک و مرتب، بدون شلوغی اضافه.",
+      "price": 1250000,
+      "unit": "جعبه",
+      "weightLabel": "۱۸ عدد",
+      "imageUrl": "/images/gift-nastaran.jpg",
+      "isFeatured": false,
+      "stock": 30,
+      "categorySlug": "gift"
+    },
+    {
+      "name": "ست دونفره مهر",
+      "slug": "mehr-set",
+      "description": "دو ردیف شکلات شیری و تلخ در جعبه کم‌حجم. انتخابی جمع‌وجور برای تشکر، قرار دونفره یا هدیه کوچک روی میز.",
+      "price": 980000,
+      "unit": "جعبه",
+      "weightLabel": "۱۲ عدد",
+      "imageUrl": "/images/gift-mehr.jpg",
+      "isFeatured": false,
+      "stock": 40,
+      "categorySlug": "gift"
+    },
+    {
+      "name": "جعبه پذیرایی زمرد",
+      "slug": "emerald-box",
+      "description": "جعبه بزرگ مجالس با ترکیب تلخ، شیری و سفید. برای پذیرایی عقد، جلسه شرکت و دورهمی‌هایی که جعبه باید وسط میز بنشیند.",
+      "price": 2450000,
+      "unit": "جعبه",
+      "weightLabel": "۴۸ عدد",
+      "imageUrl": "/images/gift-emerald.jpg",
+      "isFeatured": true,
+      "stock": 16,
+      "categorySlug": "gift"
+    },
+    {
+      "name": "شکلات تلخ ۷۰٪ فله",
+      "slug": "bulk-dark-70",
+      "description": "قرص‌های تلخ با کاکائوی ۷۰ درصد. مناسب قنادی، شیرینی خشک و خرید خانگی. قیمت برای هر کیلوگرم است و حداقل سفارش یک کیلوگرم.",
+      "price": 890000,
+      "unit": "کیلوگرم",
+      "weightLabel": "فروش کیلویی",
+      "imageUrl": "/images/bulk-dark.jpg",
+      "isFeatured": true,
+      "stock": 80,
+      "categorySlug": "bulk"
+    },
+    {
+      "name": "شکلات شیری فله",
+      "slug": "bulk-milk",
+      "description": "شکلات شیری نرم برای روکش، دسر و مصرف روزانه. فروش به‌صورت فله و قیمت هر کیلوگرم.",
+      "price": 720000,
+      "unit": "کیلوگرم",
+      "weightLabel": "فروش کیلویی",
+      "imageUrl": "/images/bulk-milk.jpg",
+      "isFeatured": false,
+      "stock": 90,
+      "categorySlug": "bulk"
+    },
+    {
+      "name": "دراژه رنگی فله",
+      "slug": "bulk-dragee",
+      "description": "دراژه‌های ریز و رنگی برای تزئین کیک، گیفت کوچک و پذیرایی. به‌صورت فله و به‌ازای هر کیلوگرم.",
+      "price": 640000,
+      "unit": "کیلوگرم",
+      "weightLabel": "فروش کیلویی",
+      "imageUrl": "/images/bulk-dragee.jpg",
+      "isFeatured": false,
+      "stock": 70,
+      "categorySlug": "bulk"
+    },
+    {
+      "name": "مغز فندق روکش‌دار",
+      "slug": "bulk-hazelnut",
+      "description": "فندق بوداده با روکش شکلات شیری. برای کاسه پذیرایی و فروش فله. قیمت هر کیلوگرم کنار محصول نوشته شده است.",
+      "price": 1450000,
+      "unit": "کیلوگرم",
+      "weightLabel": "فروش کیلویی",
+      "imageUrl": "/images/bulk-hazelnut.jpg",
+      "isFeatured": true,
+      "stock": 45,
+      "categorySlug": "bulk"
+    },
+    {
+      "name": "حبه پرتقال شکلاتی",
+      "slug": "bulk-orange",
+      "description": "پوست پرتقال شیرین با پوشش شکلات تلخ. طعم ترش و شیرین، مناسب کنار چای. فروش وزنی و قیمت هر کیلوگرم.",
+      "price": 780000,
+      "unit": "کیلوگرم",
+      "weightLabel": "فروش کیلویی",
+      "imageUrl": "/images/bulk-orange.jpg",
+      "isFeatured": false,
+      "stock": 36,
+      "categorySlug": "bulk"
+    },
+    {
+      "name": "تابلت تلخ ۷۲٪",
+      "slug": "bar-dark-72",
+      "description": "تخته تلخ روزمره با بافت ترد و کاکائوی ۷۲ درصد. بسته‌بندی تک‌نفره، هشتاد گرم.",
+      "price": 210000,
+      "unit": "عدد",
+      "weightLabel": "۸۰ گرم",
+      "imageUrl": "/images/bar-dark.jpg",
+      "isFeatured": true,
+      "stock": 60,
+      "categorySlug": "bar"
+    },
+    {
+      "name": "تابلت شیری فندق",
+      "slug": "bar-milk-hazelnut",
+      "description": "شکلات شیری با تکه‌های فندق. مناسب تنقلات و هدیه کوچک کنار یک نامه. وزن هر تخته هشتاد گرم.",
+      "price": 195000,
+      "unit": "عدد",
+      "weightLabel": "۸۰ گرم",
+      "imageUrl": "/images/bar-milk.jpg",
+      "isFeatured": false,
+      "stock": 55,
+      "categorySlug": "bar"
+    },
+    {
+      "name": "تابلت سفید وانیل",
+      "slug": "bar-white",
+      "description": "شکلات سفید با رایحه وانیل و بافت نرم. شیرینی ملایم، برای کسی که تلخ را کم دوست دارد. هشتاد گرم.",
+      "price": 185000,
+      "unit": "عدد",
+      "weightLabel": "۸۰ گرم",
+      "imageUrl": "/images/bar-white.jpg",
+      "isFeatured": false,
+      "stock": 40,
+      "categorySlug": "bar"
+    },
+    {
+      "name": "تابلت نمک دریا",
+      "slug": "bar-sea-salt",
+      "description": "تلخ ۷۰ درصد با دانه‌های نمک دریا. تضاد شوری و تلخی، در تخته هشتاد گرمی.",
+      "price": 230000,
+      "unit": "عدد",
+      "weightLabel": "۸۰ گرم",
+      "imageUrl": "/images/bar-salt.jpg",
+      "isFeatured": false,
+      "stock": 32,
+      "categorySlug": "bar"
+    },
+    {
+      "name": "بسته نوروزی زرین",
+      "slug": "nowruz-box",
+      "description": "ترکیب شکلات، دراژه و تابلت در بسته‌بندی عید. آماده گذاشتن روی سفره یا هدیه سازمانی نوروز.",
+      "price": 1650000,
+      "unit": "جعبه",
+      "weightLabel": "بسته عید",
+      "imageUrl": "/images/nowruz.jpg",
+      "isFeatured": true,
+      "stock": 28,
+      "categorySlug": "occasion"
+    },
+    {
+      "name": "جعبه شب یلدا",
+      "slug": "yalda-box",
+      "description": "شکلات‌های تیره و اناری‌رنگ در جعبه شب چله. هدیه‌ای جمع‌وجور کنار انار و دیوان.",
+      "price": 1420000,
+      "unit": "جعبه",
+      "weightLabel": "شب یلدا",
+      "imageUrl": "/images/yalda.jpg",
+      "isFeatured": false,
+      "stock": 22,
+      "categorySlug": "occasion"
+    },
+    {
+      "name": "جعبه بله‌برون",
+      "slug": "proposal-box",
+      "description": "جعبه رسمی مراسم با شکلات‌های یکدست و ربان ساتن. مناسب بله‌برون، عقد و هدیه خانوادگی.",
+      "price": 2200000,
+      "unit": "جعبه",
+      "weightLabel": "مراسم",
+      "imageUrl": "/images/proposal.jpg",
+      "isFeatured": false,
+      "stock": 14,
+      "categorySlug": "occasion"
+    }
+  ]
+}
