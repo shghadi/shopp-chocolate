@@ -35,6 +35,7 @@ public class Order
     public string Address { get; set; } = "";
     public string? Note { get; set; }
     public long Total { get; set; }
+    public string Status { get; set; } = OrderStatuses.New;
     public DateTime CreatedAt { get; set; }
     public List<OrderItem> Items { get; set; } = new();
 }

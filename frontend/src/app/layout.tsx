@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import { CartProvider } from "@/components/CartProvider";
 import { SiteFooter } from "@/components/SiteFooter";
-import { SiteHeader } from "@/components/SiteHeader";
+import { SiteFrame } from "@/components/SiteFrame";
 import "./globals.css";
 
 const vazir = localFont({
@@ -28,9 +28,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
     <html lang="fa" dir="rtl">
       <body className={`${vazir.className} min-h-screen antialiased`}>
         <CartProvider>
-          <SiteHeader />
-          <main>{children}</main>
-          <SiteFooter />
+          <SiteFrame footer={<SiteFooter />}>{children}</SiteFrame>
         </CartProvider>
       </body>
     </html>

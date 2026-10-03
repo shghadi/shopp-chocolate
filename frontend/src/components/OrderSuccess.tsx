@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import { useCart } from "@/components/CartProvider";
 import { formatNumber, formatPrice } from "@/lib/format";
+import { statusLabel } from "@/lib/orderStatus";
 import { btnGhost } from "@/lib/shop";
 import type { OrderResult } from "@/lib/types";
 
@@ -44,8 +45,9 @@ export function OrderSuccess() {
       <p className="text-xs tracking-[0.2em] text-gold">سفارش ثبت شد</p>
       <h1 className="mt-2 text-3xl font-semibold text-cocoa">شماره {formatNumber(order.id)}</h1>
       <p className="mt-3 text-sm leading-8 text-muted">
-        {order.customerName} عزیز، سفارش شما ذخیره شد. برای هماهنگی ارسال با شماره {order.phone} تماس می‌گیریم.
-        پرداخت هنگام تحویل است.
+        {order.customerName} عزیز، سفارش شما ثبت شد
+        {order.status ? ` و وضعیت آن «${statusLabel(order.status)}» است` : ""}. برای هماهنگی ارسال با شماره{" "}
+        {order.phone} تماس می‌گیریم. پرداخت هنگام تحویل است.
       </p>
       <ul className="mt-8 divide-y divide-line border border-line">
         {order.items.map((item) => (

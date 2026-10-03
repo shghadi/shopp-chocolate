@@ -46,7 +46,8 @@ public record OrderResponse(
     string? Note,
     long Total,
     DateTime CreatedAt,
-    List<OrderItemResponse> Items);
+    List<OrderItemResponse> Items,
+    string Status);
 
 public record CreateMessageRequest(
     string Name,

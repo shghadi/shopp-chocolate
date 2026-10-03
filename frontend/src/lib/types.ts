@@ -50,4 +50,52 @@ export type OrderResult = {
   total: number;
   createdAt: string;
   items: OrderItemResult[];
+  status?: string;
+};
+
+export type AdminSummary = {
+  newOrders: number;
+  confirmedOrders: number;
+  shippedOrders: number;
+  deliveredOrders: number;
+  cancelledOrders: number;
+  lowStock: number;
+  productCount: number;
+};
+
+export type AdminProduct = {
+  id: number;
+  name: string;
+  categoryName: string;
+  unit: string;
+  price: number;
+  stock: number;
+};
+
+export type AdminOrder = {
+  id: number;
+  customerName: string;
+  phone: string;
+  address: string;
+  note: string | null;
+  total: number;
+  status: string;
+  createdAt: string;
+  items: {
+    productId: number;
+    productName: string;
+    unit: string;
+    quantity: number;
+    unitPrice: number;
+    lineTotal: number;
+  }[];
+};
+
+export type AdminCustomer = {
+  name: string;
+  phone: string;
+  address: string;
+  orderCount: number;
+  totalSpent: number;
+  lastOrderAt: string;
 };

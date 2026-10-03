@@ -52,8 +52,11 @@ export async function SiteFooter() {
           </ul>
         </div>
       </div>
-      <div className="border-t border-white/10 py-4 text-center text-xs text-cream/60">
-        ۱۴۰۵ {shop.name}
+      <div className="flex items-center justify-center gap-4 border-t border-white/10 py-4 text-center text-xs text-cream/60">
+        <span>۱۴۰۵ {shop.name}</span>
+        <Link href="/admin" className="hover:text-gold-soft">
+          پنل
+        </Link>
       </div>
     </footer>
   );

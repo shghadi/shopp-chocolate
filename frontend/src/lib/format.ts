@@ -5,3 +5,9 @@ export function formatNumber(value: number) {
 export function formatPrice(value: number) {
   return `${formatNumber(value)} تومان`;
 }
+
+export function formatDate(value: string) {
+  const date = new Date(value);
+  if (Number.isNaN(date.getTime())) return value;
+  return new Intl.DateTimeFormat("fa-IR", { dateStyle: "medium", timeStyle: "short" }).format(date);
+}

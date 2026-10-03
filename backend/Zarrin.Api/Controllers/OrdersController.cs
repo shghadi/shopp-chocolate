@@ -67,6 +67,7 @@ public class OrdersController(AppDbContext db) : ControllerBase
             Phone = phone,
             Address = address,
             Note = note,
+            Status = OrderStatuses.New,
             CreatedAt = DateTime.UtcNow,
             Items = products.Select(product =>
             {
@@ -110,5 +111,6 @@ public class OrdersController(AppDbContext db) : ControllerBase
             item.Unit,
             item.Quantity,
             item.UnitPrice,
-            item.UnitPrice * item.Quantity)).ToList());
+            item.UnitPrice * item.Quantity)).ToList(),
+        order.Status);
 }
