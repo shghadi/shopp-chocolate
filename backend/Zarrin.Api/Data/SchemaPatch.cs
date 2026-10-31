@@ -1,4 +1,5 @@
 using System.Data;
+using Microsoft.EntityFrameworkCore;
 
 namespace Zarrin.Api.Data;
 
